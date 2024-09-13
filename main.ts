@@ -24,7 +24,7 @@ input.onButtonPressed(Button.B, function () {
             basic.showIcon(IconNames.Yes)
         } else {
             for (let index = 0; index < 4; index++) {
-                music.play(music.tonePlayable(196, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+                music.play(music.tonePlayable(196, music.beat(BeatFraction.Whole)), music.PlaybackMode.InBackground)
                 basic.showIcon(IconNames.No)
                 basic.clearScreen()
                 basic.pause(200)
